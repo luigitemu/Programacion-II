@@ -1,0 +1,28 @@
+package Clases;
+
+public class Usuario {
+	private String nombreUsuario;
+	private String correoElectronico;
+	public Usuario(String usuario, String correo) {
+		this.usuario = usuario;
+		this.correo = correo;
+	}
+	public Usuario(){}
+	public String getUsuario() {
+		return usuario;
+	}
+	public void setUsuario(String usuario) {
+		this.usuario = usuario;
+	}
+	public String getCorreo() {
+		return correo;
+	}
+	public void setCorreo(String correo) {
+		this.correo = correo;
+	}
+	@Override
+	public String toString() {
+		return "Usuario [usuario=" + usuario + ", correo=" + correo + "]";
+	}
+     public void verificarCorreo(){}
+}
